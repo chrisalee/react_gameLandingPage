@@ -1,2 +1,17 @@
 ReactJS Game Landing Page | ReactJS SASS ViteJS
 
+yarn creat vite
+select react, react
+yarn create vite client
+cd client
+yarn i sass swiper hover-effect
+yarn dev - to run on localhost
+
+add assets folder with images for project
+add scss folder
+    _index.scss
+    _mixin.scss
+    _variables.scss
+
+components folder
+    header component
