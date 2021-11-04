@@ -96,3 +96,8 @@ iframe {
   position: relative;
 }
 
+.swiper, .swiper-slide {
+  height: 100%;
+
+  // @include flex(center, space-between);
+}

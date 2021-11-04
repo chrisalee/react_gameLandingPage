@@ -14,4 +14,8 @@ add scss folder
     _variables.scss
 
 components folder
-    header component
+    header component, header.scss
+
+pages folder
+    homepage component
+    add swiper
