@@ -19,3 +19,5 @@ components folder
 pages folder
     homepage component
     add swiper
+
+home-section

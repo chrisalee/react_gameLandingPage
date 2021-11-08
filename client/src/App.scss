@@ -1,8 +1,7 @@
 @use './scss/' as *;
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
 
-
-*, *::after, *::before {
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;

@@ -17,6 +17,7 @@
     &__logo {
         width: 145px;
         pointer-events: visible;
+        margin-left: 2rem;
 
         img {
             width: 100%;
@@ -25,6 +26,7 @@
 
     &__nav {
         @include flex(center, space-between);
+        margin-right: 2rem;
 
         li ~ li {
             margin-left: 1rem;

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { EffectFade, Mousewheel, Pagination } from 'swiper';
+import { Welcome } from '../components/home-section';
 
 SwiperCore.use([Mousewheel, Pagination, EffectFade]);
 
@@ -19,7 +20,7 @@ const Home = () => {
         <>
             <Swiper {...swiperOptions}>
                 <SwiperSlide>
-                    slide 1
+                    {({ isActive }) => <Welcome isActive={isActive} />}
                 </SwiperSlide>
                 <SwiperSlide>
                     slide 2
