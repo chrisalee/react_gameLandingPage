@@ -19,18 +19,7 @@ import {
     bgLargeAkali
 } from './images'
 
-export const championsData = [
-    {
-        img: cardAkali,
-        name: 'akali',
-        bg: bgAkali,
-        nickName: 'THE ROGUE ASSASSIN',
-        role: 'ASSASSIN',
-        difficulty: 'MODERATE',
-        description: `Abandoning the Kinkou Order and her title of the Fist of Shadow, Akali now strikes alone, ready to be the deadly weapon her people need. Though she holds onto all she learned from her master Shen, she has pledged to defend Ionia from its enemies, one kill at a time. Akali may strike in silence, but her message will be heard loud and clear: fear the assassin with no master.`,
-        video: 'sQ7ALTSCbdw',
-        bgLarge: bgLargeAkali
-    },
+export const championData = [
     {
         img: cardFortune,
         name: 'miss fortune',
@@ -85,5 +74,16 @@ export const championsData = [
         description: `Luxanna Crownguard hails from Demacia, an insular realm where magical abilities are viewed with fear and suspicion. Able to bend light to her will, she grew up dreading discovery and exile, and was forced to keep her power secret, in order to preserve her family's noble status. Nonetheless, Lux's optimism and resilience have led her to embrace her unique talents, and she now covertly wields them in service of her homeland.`,
         video: 'khEBkz6A0oQ',
         bgLarge: bgLargeLux
+    },
+    {
+        img: cardAkali,
+        name: 'akali',
+        bg: bgAkali,
+        nickName: 'THE ROGUE ASSASSIN',
+        role: 'ASSASSIN',
+        difficulty: 'MODERATE',
+        description: `Abandoning the Kinkou Order and her title of the Fist of Shadow, Akali now strikes alone, ready to be the deadly weapon her people need. Though she holds onto all she learned from her master Shen, she has pledged to defend Ionia from its enemies, one kill at a time. Akali may strike in silence, but her message will be heard loud and clear: fear the assassin with no master.`,
+        video: 'sQ7ALTSCbdw',
+        bgLarge: bgLargeAkali
     },
 ]

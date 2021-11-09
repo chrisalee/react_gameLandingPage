@@ -1,5 +1,5 @@
 import Welcome from "./welcome/Welcome";
-import Champion from "./champions/Champion";
+import Champion from "./champion/Champion";
 
 export {
     Welcome,

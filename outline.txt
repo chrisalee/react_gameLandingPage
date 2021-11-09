@@ -24,4 +24,4 @@ home-section  //has the layout for swiper
     welcome component
     button component
 
-champions component - second swiper page
+champions component - second swiper 
