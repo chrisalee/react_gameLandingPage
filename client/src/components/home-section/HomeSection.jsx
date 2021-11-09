@@ -13,6 +13,7 @@ const HomeSection = (props) => {
                 {props.children}
             </SectionContent>
             
+            
         </Section>
     )
 }

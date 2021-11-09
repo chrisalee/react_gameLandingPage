@@ -14,17 +14,29 @@
   &__info {
     @include flex(flex-start, flex-end);
     flex-direction: column;
-    
+    margin-top: -200px;
+    margin-left: 25px;
+
     &__content {
-        padding-left: 15rem;
+      padding-left: 15rem;
 
-        .description {
-            font-size: 1rem;
-        }
+      .description {
+        font-size: 1rem;
+      }
 
-        .btns > * ~ * {
-            margin-left: 1rem;
-        }
+      .btns > * ~ * {
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  &__img {
+    @include flex(flex-start, flex-start);
+
+    &__slide {
+      height: 915px;
+      width: 915px;
+      overflow: hidden;
     }
   }
 }

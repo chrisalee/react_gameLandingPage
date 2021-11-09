@@ -20,4 +20,8 @@ pages folder
     homepage component
     add swiper
 
-home-section
+home-section  //has the layout for swiper
+    welcome component
+    button component
+
+champions component - second swiper page
