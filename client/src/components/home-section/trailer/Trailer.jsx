@@ -29,7 +29,7 @@ const Trailer = (props) => {
                 <iframe 
                     ref={iframeRef}
                     width='100%'
-                    height='500px'
+                    height='auto'
                     title='trailer'
                     src="https://www.youtube.com/embed/TFzkbos0oeo"
                 ></iframe>
