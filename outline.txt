@@ -25,3 +25,5 @@ home-section  //has the layout for swiper
     button component
 
 champions component - second swiper 
+    ChampionCard
+    ChampionDetails

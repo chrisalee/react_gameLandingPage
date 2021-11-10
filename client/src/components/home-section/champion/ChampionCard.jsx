@@ -30,6 +30,10 @@ const ChampionCard = (props) => {
 
     document.body.appendChild(newNode);
 
+    const videoUrl = `https://youtube.com/embed/${item.video}`;
+    document.querySelector(`#champ-detail-${props.id} iframe`).setAttribute('src', videoUrl);
+    document.querySelector(`#champ-detail-${props.id}`).classList.add('active');
+
   }
 
   return (
@@ -38,7 +42,7 @@ const ChampionCard = (props) => {
       <div className="bg-image overlay bg" style={{ backgroundImage: `url(${item.bg})` }}>
       </div>
     </div>
-    <img src={item.img} alt="" />
+    <img src={item.img} alt={item.name} />
     <div className="name">{item.name}</div>
   </div>
   );

@@ -3,14 +3,14 @@ import "./champion.scss";
 import HomeSection from "../HomeSection";
 import ChampionCard from "./ChampionCard";
 import { bg2 } from "../../../assets/images";
-import { championData } from '../../../assets/dummy.js';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { championsData } from "../../../assets/dummy.js";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 const Champion = (props) => {
   return (
     <HomeSection
       className={`champion ${props.isActive ? "active" : ""}`}
-      contentClassName="overlay "
+      contentClassName="overlay"
       bgImage={bg2}
     >
       <div className="container relative">
@@ -21,13 +21,11 @@ const Champion = (props) => {
             grabCursor={true}
             nested={true}
           >
-            {
-              championData.map((item, index) => (
-                <SwiperSlide key={index}>
-                  <ChampionCard id={index} item={item} />
-                </SwiperSlide>
-              ))
-            }
+            {championsData.map((item, index) => (
+              <SwiperSlide key={index}>
+                <ChampionCard id={index} item={item} />
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
       </div>
