@@ -27,3 +27,5 @@ home-section  //has the layout for swiper
 champions component - second swiper 
     ChampionCard
     ChampionDetails
+
+trailer component, add to index.js
