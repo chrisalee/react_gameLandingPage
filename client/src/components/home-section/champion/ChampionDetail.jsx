@@ -7,36 +7,38 @@ const ChampionDetail = (props) => {
   const iframeRef = useRef(null);
 
   useEffect(() => {
-    const height = iframeRef.current.offsetWidth * 9 / 16 + 'px';
-    iframeRef.current.setAttribute('height', height);
+    const height = (iframeRef.current.offsetWidth * 9) / 16 + "px";
+    iframeRef.current.setAttribute("height", height);
   }, []);
 
   const onClose = () => {
-    document.querySelector(`#champ-detail-${props.id}`).classList.remove('active');
-    iframeRef.current.setAttribute('src', '');
+    document
+      .querySelector(`#champ-detail-${props.id}`)
+      .classList.remove("active");
+    iframeRef.current.setAttribute("src", "");
 
     const img = document.querySelector(`#champ-img-${props.id}`);
     img.style.opacity = 0;
-
     setTimeout(() => {
-      img.remove()
+      img.remove();
     }, 500);
-  }
+  };
 
   return (
     <div
-      id={`champ-details-${props.id}`}
-      className={`champion-details bg-image overlay ${
+      id={`champ-detail-${props.id}`}
+      className={`champion-detail bg-image overlay ${
         props.active ? "active" : ""
       }`}
       style={{ backgroundImage: `url(${item.bgLarge})` }}
     >
       <div className="champion-detail__content">
-        <span>{item.nickname}</span>
+        <span>{item.nickName}</span>
         <h2 className="name main-color">{item.name}</h2>
         <span>
           Role: <span className="second-color">{item.role}</span>
         </span>
+        <br />
         <span>
           Difficulty: <span className="second-color">{item.difficulty}</span>
         </span>
